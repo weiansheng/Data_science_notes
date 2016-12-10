@@ -1,3 +1,4 @@
+A typical cross validation steps 
 1 Train-test split
 2 With train data, Built several model with different hyper parameters
 (or build different models with different features, or use different ml algorithms)
@@ -11,3 +12,6 @@ train and validate k times, get k instances for each model, get an average of sc
 5 Select the best model hyper-parameter (or features)
 6 use the hyper-parameter (or the features) to build a final model, with both train and validation data together
 7 Use the final model on test data to get test error
+
+Logistic regression: 
+AUC: represents accuracy 
